@@ -1,0 +1,114 @@
+
+.taskbar{margin: 0;width: 100%; position: sticky;}
+    nav{width: 100%; height: 100%;background: #e2e0e0;}
+    ul.horizontal{
+            font-family:'Calibri';
+            list-style-type: none;
+            padding: 0;
+            margin: 10;
+            overflow: hidden;
+            background-color: white;
+            }
+
+    ul.horizontal li {float:left;}
+    ul.horizontal li a{
+            display: block;
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            padding-left: 20px;
+            padding-right: 40px;
+            text-align: center;
+        }
+        ul.horizontal li a:hover{background-color: grey;}
+
+        div.taskbar img{
+            width: 143px;
+            padding: 0px;
+            float: right;
+        }
+        div.gambar img{
+            width: 100%;
+
+        }
+
+       div.profil{
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+div.profil .right{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+div.profil .right h1{
+    text-align: left;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    ;
+    padding-right: 20px;
+}
+div.profil .right p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    padding-left: 25px;
+}
+div.profil .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+div.profil .left img{
+    width: 510px;
+    height: auto;
+    border: 10px solid #000;
+    border-radius: 20px;
+    margin: 30px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+  }
+div.ya{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+div.ya h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+div.ya img{
+    
+    height: 300px;
+    padding: 5px 450px;
+    
+}
+div.partai{
+    width: 100%;
+    height: 300px;
+    background-color:  rgba(219, 0, 0, 0.918);
+    float: left;
+}
+div.partai h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div.bawah img{
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    background: rgb(31, 27, 27);
+    opacity: 0.8;
+    text-align: center;
+}
+
+
